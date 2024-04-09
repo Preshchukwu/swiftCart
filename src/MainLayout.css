@@ -3,3 +3,34 @@
     height: auto;
 }
 
+h1{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.carousel-inner {
+    display: flex;
+    animation: carousel-animation 15s linear infinite;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+@keyframes carousel-animation {
+    0% {
+        transform: translateX(70%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
