@@ -1,0 +1,50 @@
+.navContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3.5rem;
+    border-bottom: 1px solid #CFD0D1;
+}
+
+.linksContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link{
+    color: #1F70CE;
+}
+
+.home{
+    width: fit-content;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #1F70CE;
+    color: white;
+    border-radius: 0.2rem;
+}
+
+.iconAndTextContainer{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3rem;
+}
+
+.iconAndText{
+    width: fit-content;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+}
